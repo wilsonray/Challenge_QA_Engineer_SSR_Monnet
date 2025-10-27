@@ -1,0 +1,23 @@
+{
+  "name": "challenge_qa_engineer_ssr_monnet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilsonray/Challenge_QA_Engineer_SSR_Monnet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/wilsonray/Challenge_QA_Engineer_SSR_Monnet/issues"
+  },
+  "homepage": "https://github.com/wilsonray/Challenge_QA_Engineer_SSR_Monnet#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1"
+  }
+}
