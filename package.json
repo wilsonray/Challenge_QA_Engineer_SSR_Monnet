@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:qa": "env-cmd -f .env.qa npx playwright test",
+    "test:cert": "env-cmd -f .env.cert npx playwright test",
+    "ui:qa": "env-cmd -f .env.qa npx playwright test --ui",
+    "ui:cert": "env-cmd -f .env.cert npx playwright test --ui"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wilsonray/Challenge_QA_Engineer_SSR_Monnet.git"
@@ -18,6 +23,10 @@
   "homepage": "https://github.com/wilsonray/Challenge_QA_Engineer_SSR_Monnet#readme",
   "devDependencies": {
     "@playwright/test": "^1.56.1",
-    "@types/node": "^24.9.1"
+    "@types/node": "^24.9.1",
+    "dotenv": "^17.2.3"
+  },
+  "dependencies": {
+    "env-cmd": "^11.0.0"
   }
 }
